@@ -1,0 +1,12 @@
+D:\DEPI\Project\E-learning\E-learningPro\E-learningPro.Core\bin\Debug\net8.0\E-learningPro.Core.deps.json
+D:\DEPI\Project\E-learning\E-learningPro\E-learningPro.Core\bin\Debug\net8.0\E-learningPro.Core.dll
+D:\DEPI\Project\E-learning\E-learningPro\E-learningPro.Core\bin\Debug\net8.0\E-learningPro.Core.pdb
+D:\DEPI\Project\E-learning\E-learningPro\E-learningPro.Core\obj\Debug\net8.0\E-learningPro.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEPI\Project\E-learning\E-learningPro\E-learningPro.Core\obj\Debug\net8.0\E-learningPro.Core.AssemblyInfoInputs.cache
+D:\DEPI\Project\E-learning\E-learningPro\E-learningPro.Core\obj\Debug\net8.0\E-learningPro.Core.AssemblyInfo.cs
+D:\DEPI\Project\E-learning\E-learningPro\E-learningPro.Core\obj\Debug\net8.0\E-learningPro.Core.csproj.CoreCompileInputs.cache
+D:\DEPI\Project\E-learning\E-learningPro\E-learningPro.Core\obj\Debug\net8.0\E-learningPro.Core.sourcelink.json
+D:\DEPI\Project\E-learning\E-learningPro\E-learningPro.Core\obj\Debug\net8.0\E-learningPro.Core.dll
+D:\DEPI\Project\E-learning\E-learningPro\E-learningPro.Core\obj\Debug\net8.0\refint\E-learningPro.Core.dll
+D:\DEPI\Project\E-learning\E-learningPro\E-learningPro.Core\obj\Debug\net8.0\E-learningPro.Core.pdb
+D:\DEPI\Project\E-learning\E-learningPro\E-learningPro.Core\obj\Debug\net8.0\ref\E-learningPro.Core.dll

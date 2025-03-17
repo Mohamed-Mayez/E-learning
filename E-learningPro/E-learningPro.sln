@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-learningPro", "E-learningPro\E-learningPro.csproj", "{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-learningPro.web", "E-learningPro\E-learningPro.web.csproj", "{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-learningPro.Core", "E-learningPro.Core\E-learningPro.Core.csproj", "{9641B84F-A999-4BC7-A90C-72718DF20466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-LearningPro.Services", "E-LearningPro.Services\E-LearningPro.Services.csproj", "{BD7BE753-ED44-4694-A09F-886126F954E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-LearningPro.Data", "E-LearningPro.Data\E-LearningPro.Data.csproj", "{F59C3F95-6533-4568-BCE8-BEE062DA7B44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9641B84F-A999-4BC7-A90C-72718DF20466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9641B84F-A999-4BC7-A90C-72718DF20466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9641B84F-A999-4BC7-A90C-72718DF20466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9641B84F-A999-4BC7-A90C-72718DF20466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD7BE753-ED44-4694-A09F-886126F954E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD7BE753-ED44-4694-A09F-886126F954E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD7BE753-ED44-4694-A09F-886126F954E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD7BE753-ED44-4694-A09F-886126F954E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59C3F95-6533-4568-BCE8-BEE062DA7B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59C3F95-6533-4568-BCE8-BEE062DA7B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59C3F95-6533-4568-BCE8-BEE062DA7B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59C3F95-6533-4568-BCE8-BEE062DA7B44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
