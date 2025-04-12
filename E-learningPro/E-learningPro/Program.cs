@@ -1,3 +1,8 @@
+using E_learningPro.Core.Entities;
+using E_LearningPro.Data;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+
 namespace E_learningPro
 {
     public class Program
@@ -8,7 +13,13 @@ namespace E_learningPro
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-
+            // Connection to the database
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+                     options.UseSqlServer(builder.Configuration.GetConnectionString("MohamedlDb"),sql => sql.MigrationsAssembly("E-LearningPro.Data")));
+            // Add Identity
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole<int>>()
+                            .AddEntityFrameworkStores<ApplicationDbContext>()
+                            .AddDefaultTokenProviders();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

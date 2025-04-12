@@ -14,3 +14,5 @@ D:\DEPI\Project\E-learning\E-learningPro\E-LearningPro.Data\obj\Debug\net8.0\E-L
 D:\DEPI\Project\E-learning\E-learningPro\E-LearningPro.Data\obj\Debug\net8.0\refint\E-LearningPro.Data.dll
 D:\DEPI\Project\E-learning\E-learningPro\E-LearningPro.Data\obj\Debug\net8.0\E-LearningPro.Data.pdb
 D:\DEPI\Project\E-learning\E-learningPro\E-LearningPro.Data\obj\Debug\net8.0\ref\E-LearningPro.Data.dll
+D:\DEPI\Project\E-learning\E-learningPro\E-LearningPro.Data\bin\Debug\net8.0\E-LearningPro.Data.runtimeconfig.json
+D:\DEPI\Project\E-learning\E-learningPro\E-LearningPro.Data\obj\Debug\net8.0\E-LearningPro.Data.genruntimeconfig.cache
