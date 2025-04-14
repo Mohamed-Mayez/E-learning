@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace E_learningPro.Core.Entities
 {
     public class Review
@@ -5,6 +7,7 @@ namespace E_learningPro.Core.Entities
         public int ReviewID { get; set; }
         public int UserID { get; set; }
         public int CourseID { get; set; }
+        [Range(1, 5)]
         public int Rating { get; set; }
         public string? Comment { get; set; }
         public DateTime? CreatedAt { get; set; } = DateTime.UtcNow;

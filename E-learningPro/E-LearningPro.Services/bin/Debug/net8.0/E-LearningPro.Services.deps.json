@@ -9,7 +9,8 @@
       "E-LearningPro.Services/1.0.0": {
         "dependencies": {
           "E-LearningPro.Data": "1.0.0",
-          "E-learningPro.Core": "1.0.0"
+          "E-learningPro.Core": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.14"
         },
         "runtime": {
           "E-LearningPro.Services.dll": {}

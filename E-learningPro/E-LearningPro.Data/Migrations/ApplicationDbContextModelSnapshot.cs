@@ -138,7 +138,7 @@ namespace E_LearningPro.Data.Migrations
 
                     b.HasKey("CategoryID");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("E_learningPro.Core.Entities.Chat", b =>
@@ -164,7 +164,7 @@ namespace E_LearningPro.Data.Migrations
 
                     b.HasIndex("SenderID");
 
-                    b.ToTable("Chats");
+                    b.ToTable("Chats", (string)null);
                 });
 
             modelBuilder.Entity("E_learningPro.Core.Entities.Course", b =>
@@ -207,7 +207,7 @@ namespace E_LearningPro.Data.Migrations
 
                     b.HasIndex("InstructorID");
 
-                    b.ToTable("Courses");
+                    b.ToTable("Courses", (string)null);
                 });
 
             modelBuilder.Entity("E_learningPro.Core.Entities.Enrollment", b =>
@@ -236,7 +236,7 @@ namespace E_LearningPro.Data.Migrations
 
                     b.HasIndex("UserID");
 
-                    b.ToTable("Enrollments");
+                    b.ToTable("Enrollments", (string)null);
                 });
 
             modelBuilder.Entity("E_learningPro.Core.Entities.Lesson", b =>
@@ -272,7 +272,7 @@ namespace E_LearningPro.Data.Migrations
 
                     b.HasIndex("CourseID");
 
-                    b.ToTable("Lessons");
+                    b.ToTable("Lessons", (string)null);
                 });
 
             modelBuilder.Entity("E_learningPro.Core.Entities.Message", b =>
@@ -306,7 +306,7 @@ namespace E_LearningPro.Data.Migrations
 
                     b.HasIndex("SenderID");
 
-                    b.ToTable("Messages");
+                    b.ToTable("Messages", (string)null);
                 });
 
             modelBuilder.Entity("E_learningPro.Core.Entities.Payment", b =>
@@ -347,7 +347,7 @@ namespace E_LearningPro.Data.Migrations
 
                     b.HasIndex("UserID");
 
-                    b.ToTable("Payments");
+                    b.ToTable("Payments", (string)null);
                 });
 
             modelBuilder.Entity("E_learningPro.Core.Entities.Progress", b =>
@@ -382,7 +382,7 @@ namespace E_LearningPro.Data.Migrations
 
                     b.HasIndex("UserID");
 
-                    b.ToTable("Progresses");
+                    b.ToTable("Progresses", (string)null);
                 });
 
             modelBuilder.Entity("E_learningPro.Core.Entities.Review", b =>
@@ -414,7 +414,7 @@ namespace E_LearningPro.Data.Migrations
 
                     b.HasIndex("UserID");
 
-                    b.ToTable("Reviews");
+                    b.ToTable("Reviews", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole<int>", b =>

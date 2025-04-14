@@ -1,13 +1,17 @@
 using E_learningPro.Core.Entities;
+using E_learningPro.Helpers;
 using E_LearningPro.Data;
+using E_LearningPro.Services.Interfaces;
+using E_LearningPro.Services.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 namespace E_learningPro
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -20,8 +24,19 @@ namespace E_learningPro
             builder.Services.AddIdentity<ApplicationUser, IdentityRole<int>>()
                             .AddEntityFrameworkStores<ApplicationDbContext>()
                             .AddDefaultTokenProviders();
-            var app = builder.Build();
+            
 
+            // My Services ///////////////////////////////////////////////////////
+            builder.Services.AddScoped<IAccountService, AccountService>();
+
+            //////////////////////////////////////////////////////////////////////
+            var app = builder.Build();
+            // Seeding Roles
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                await RoleSeeder.SeedRolesAsync(services);
+            }
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
