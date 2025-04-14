@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro.Core\\E-learningPro.Core.csproj": {}
+    "C:\\Users\\MANSY\\Desktop\\DEPI PROJECT\\Data protfolio\\E-learning\\E-learningPro\\E-learningPro.Core\\E-learningPro.Core.csproj": {}
   },
   "projects": {
-    "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro.Core\\E-learningPro.Core.csproj": {
+    "C:\\Users\\MANSY\\Desktop\\DEPI PROJECT\\Data protfolio\\E-learning\\E-learningPro\\E-learningPro.Core\\E-learningPro.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro.Core\\E-learningPro.Core.csproj",
+        "projectUniqueName": "C:\\Users\\MANSY\\Desktop\\DEPI PROJECT\\Data protfolio\\E-learning\\E-learningPro\\E-learningPro.Core\\E-learningPro.Core.csproj",
         "projectName": "E-learningPro.Core",
-        "projectPath": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro.Core\\E-learningPro.Core.csproj",
-        "packagesPath": "C:\\Users\\mo\\.nuget\\packages\\",
-        "outputPath": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro.Core\\obj\\",
+        "projectPath": "C:\\Users\\MANSY\\Desktop\\DEPI PROJECT\\Data protfolio\\E-learning\\E-learningPro\\E-learningPro.Core\\E-learningPro.Core.csproj",
+        "packagesPath": "C:\\Users\\MANSY\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MANSY\\Desktop\\DEPI PROJECT\\Data protfolio\\E-learning\\E-learningPro\\E-learningPro.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MANSY\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

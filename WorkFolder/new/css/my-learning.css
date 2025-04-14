@@ -1,0 +1,128 @@
+/* My Learning Header */
+.my-learning-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1920x400');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 2rem;
+}
+
+.my-learning-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/* Stats Cards */
+.stats-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+}
+
+.stats-card .card-title {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.stats-card .card-text {
+    color: white;
+    font-weight: bold;
+}
+
+/* Course Progress Cards */
+.course-progress-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.course-progress-card:hover {
+    transform: translateY(-5px);
+}
+
+.course-progress-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.course-progress-card .progress {
+    height: 10px;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+.course-progress-card .progress-bar {
+    background-color: var(--primary-color);
+}
+
+/* Completed Course Cards */
+.completed-course-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.completed-course-card:hover {
+    transform: translateY(-5px);
+}
+
+.completed-course-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.completed-course-card .certificate-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #28a745;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+/* Continue Learning Button */
+.continue-learning-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.continue-learning-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .my-learning-header {
+        padding: 60px 0;
+    }
+
+    .my-learning-header h1 {
+        font-size: 2rem;
+    }
+
+    .stats-card {
+        margin-bottom: 1rem;
+    }
+} 
