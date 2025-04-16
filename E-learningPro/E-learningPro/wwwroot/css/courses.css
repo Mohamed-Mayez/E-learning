@@ -1,0 +1,112 @@
+/* Courses Header */
+.courses-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1920x400');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 2rem;
+}
+
+.courses-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/* Search Bar */
+.input-group {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.input-group .form-control {
+    border: none;
+    padding: 1rem 1.5rem;
+}
+
+.input-group .btn {
+    padding: 0 1.5rem;
+    border-radius: 0;
+}
+
+/* Course Cards */
+.course-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.course-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.course-card .card-body {
+    padding: 1.5rem;
+}
+
+.course-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.course-card .card-text {
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.course-card .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.course-card .rating {
+    color: #ffc107;
+    margin-bottom: 1rem;
+}
+
+/* Course Categories */
+.course-categories {
+    margin-bottom: 2rem;
+}
+
+.category-btn {
+    padding: 0.5rem 1.5rem;
+    margin: 0.25rem;
+    border-radius: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    transition: all 0.3s ease;
+}
+
+.category-btn:hover,
+.category-btn.active {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .courses-header {
+        padding: 60px 0;
+    }
+
+    .courses-header h1 {
+        font-size: 2rem;
+    }
+
+    .course-card {
+        margin-bottom: 1rem;
+    }
+} 

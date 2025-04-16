@@ -12,12 +12,12 @@ namespace E_learningPro.Helpers
         {
             _signInManager = signInManager;
         }
-        public async Task<bool> LoginAsync(LoginDto model)
+        public async Task<SignInResult> LoginAsync(LoginDto model)
         {
             if(model is null)
-                return false;
+                return new SignInResult();
             var result = await _signInManager.PasswordSignInAsync(model.Email!, model.Password!, model.RememberMe, false);
-            return result.Succeeded;
+            return result;
         }
 
         public async Task LogoutAsync()

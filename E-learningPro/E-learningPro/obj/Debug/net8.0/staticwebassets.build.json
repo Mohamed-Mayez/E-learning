@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tvQubtWFIqvjqdvR5vup9rOeCloSgGDq7ZwBRwGkS3c=",
+  "Hash": "T6stLp1qXwpaOWDRxxCNQmdkb3tlMh3okurmXxa7Tps=",
   "Source": "E-learningPro.web",
   "BasePath": "_content/E-learningPro.web",
   "Mode": "Default",
@@ -59,6 +59,69 @@
       "OriginalItemSpec": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-learningPro.web.bundle.scp.css"
     },
     {
+      "Identity": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\css\\courses.css",
+      "SourceId": "E-learningPro.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\",
+      "BasePath": "_content/E-learningPro.web",
+      "RelativePath": "css/courses#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zmz728i8fh",
+      "Integrity": "1c2djxlYz6WblNqFqAPl/3/hc/uz3XmHUuLxpAAKqss=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\courses.css"
+    },
+    {
+      "Identity": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\css\\login.css",
+      "SourceId": "E-learningPro.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\",
+      "BasePath": "_content/E-learningPro.web",
+      "RelativePath": "css/login#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "at84j5d48p",
+      "Integrity": "nvzHEqX6MLVZSwBR+u7QM0jQxjTp51r/gQLq9m4D6Gk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\css\\signup.css",
+      "SourceId": "E-learningPro.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\",
+      "BasePath": "_content/E-learningPro.web",
+      "RelativePath": "css/signup#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xghow8ijb2",
+      "Integrity": "cY7bTLi736kxD8l3TPlEEIBoObCvo0A7lEAfmqoUgEw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\signup.css"
+    },
+    {
       "Identity": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\css\\site.css",
       "SourceId": "E-learningPro.web",
       "SourceType": "Discovered",
@@ -80,6 +143,27 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\css\\style.css",
+      "SourceId": "E-learningPro.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\",
+      "BasePath": "_content/E-learningPro.web",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zw5klbskwq",
+      "Integrity": "81tIe0JC0PMtrhkgoBzgvMO5yq9930SGTKv5HX3WXHI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
       "Identity": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\favicon.ico",
       "SourceId": "E-learningPro.web",
       "SourceType": "Discovered",
@@ -99,6 +183,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\js\\courses.js",
+      "SourceId": "E-learningPro.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\",
+      "BasePath": "_content/E-learningPro.web",
+      "RelativePath": "js/courses#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mgs9jsdq2e",
+      "Integrity": "qtTHaRvRnpGb7H8cfFbyNwH+FyARipHo82IQLbWfU/M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\courses.js"
+    },
+    {
+      "Identity": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\js\\login.js",
+      "SourceId": "E-learningPro.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\",
+      "BasePath": "_content/E-learningPro.web",
+      "RelativePath": "js/login#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nvres31g3u",
+      "Integrity": "oxw2KJe+m41AoP1pWmsEX94blSAFPlAGenDgTZXZ2iw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login.js"
+    },
+    {
+      "Identity": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\js\\main.js",
+      "SourceId": "E-learningPro.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\",
+      "BasePath": "_content/E-learningPro.web",
+      "RelativePath": "js/main#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j8xmcyrr34",
+      "Integrity": "wxUIroK2YAgA74IEgQg+C0efkDllyH+rMekdKaAQzHs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\main.js"
+    },
+    {
+      "Identity": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\js\\signup.js",
+      "SourceId": "E-learningPro.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\",
+      "BasePath": "_content/E-learningPro.web",
+      "RelativePath": "js/signup#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "80jjzq77bh",
+      "Integrity": "+MGfZ4QJMJRpK8nmtK9YSsQ+E4Xmb+Jk8NohErXV4Rw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\signup.js"
     },
     {
       "Identity": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\js\\site.js",
@@ -1321,6 +1489,252 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/courses.css",
+      "AssetFile": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\css\\courses.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1c2djxlYz6WblNqFqAPl/3/hc/uz3XmHUuLxpAAKqss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 11:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1c2djxlYz6WblNqFqAPl/3/hc/uz3XmHUuLxpAAKqss="
+        }
+      ]
+    },
+    {
+      "Route": "css/courses.zmz728i8fh.css",
+      "AssetFile": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\css\\courses.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1c2djxlYz6WblNqFqAPl/3/hc/uz3XmHUuLxpAAKqss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 11:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zmz728i8fh"
+        },
+        {
+          "Name": "label",
+          "Value": "css/courses.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1c2djxlYz6WblNqFqAPl/3/hc/uz3XmHUuLxpAAKqss="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.at84j5d48p.css",
+      "AssetFile": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\css\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "657"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nvzHEqX6MLVZSwBR+u7QM0jQxjTp51r/gQLq9m4D6Gk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 11:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "at84j5d48p"
+        },
+        {
+          "Name": "label",
+          "Value": "css/login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nvzHEqX6MLVZSwBR+u7QM0jQxjTp51r/gQLq9m4D6Gk="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.css",
+      "AssetFile": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\css\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "657"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nvzHEqX6MLVZSwBR+u7QM0jQxjTp51r/gQLq9m4D6Gk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 11:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nvzHEqX6MLVZSwBR+u7QM0jQxjTp51r/gQLq9m4D6Gk="
+        }
+      ]
+    },
+    {
+      "Route": "css/signup.css",
+      "AssetFile": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\css\\signup.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cY7bTLi736kxD8l3TPlEEIBoObCvo0A7lEAfmqoUgEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 11:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cY7bTLi736kxD8l3TPlEEIBoObCvo0A7lEAfmqoUgEw="
+        }
+      ]
+    },
+    {
+      "Route": "css/signup.xghow8ijb2.css",
+      "AssetFile": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\css\\signup.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cY7bTLi736kxD8l3TPlEEIBoObCvo0A7lEAfmqoUgEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 11:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xghow8ijb2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/signup.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cY7bTLi736kxD8l3TPlEEIBoObCvo0A7lEAfmqoUgEw="
+        }
+      ]
+    },
+    {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1399,6 +1813,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1613"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"81tIe0JC0PMtrhkgoBzgvMO5yq9930SGTKv5HX3WXHI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 11:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-81tIe0JC0PMtrhkgoBzgvMO5yq9930SGTKv5HX3WXHI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.zw5klbskwq.css",
+      "AssetFile": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1613"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"81tIe0JC0PMtrhkgoBzgvMO5yq9930SGTKv5HX3WXHI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 11:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zw5klbskwq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-81tIe0JC0PMtrhkgoBzgvMO5yq9930SGTKv5HX3WXHI="
         }
       ]
     },
@@ -1645,6 +2141,334 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "js/courses.js",
+      "AssetFile": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\js\\courses.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qtTHaRvRnpGb7H8cfFbyNwH+FyARipHo82IQLbWfU/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 11:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qtTHaRvRnpGb7H8cfFbyNwH+FyARipHo82IQLbWfU/M="
+        }
+      ]
+    },
+    {
+      "Route": "js/courses.mgs9jsdq2e.js",
+      "AssetFile": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\js\\courses.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qtTHaRvRnpGb7H8cfFbyNwH+FyARipHo82IQLbWfU/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 11:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mgs9jsdq2e"
+        },
+        {
+          "Name": "label",
+          "Value": "js/courses.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qtTHaRvRnpGb7H8cfFbyNwH+FyARipHo82IQLbWfU/M="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.js",
+      "AssetFile": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\js\\login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1320"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oxw2KJe+m41AoP1pWmsEX94blSAFPlAGenDgTZXZ2iw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 11:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oxw2KJe+m41AoP1pWmsEX94blSAFPlAGenDgTZXZ2iw="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.nvres31g3u.js",
+      "AssetFile": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\js\\login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1320"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oxw2KJe+m41AoP1pWmsEX94blSAFPlAGenDgTZXZ2iw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 11:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nvres31g3u"
+        },
+        {
+          "Name": "label",
+          "Value": "js/login.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oxw2KJe+m41AoP1pWmsEX94blSAFPlAGenDgTZXZ2iw="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.j8xmcyrr34.js",
+      "AssetFile": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wxUIroK2YAgA74IEgQg+C0efkDllyH+rMekdKaAQzHs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 11:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j8xmcyrr34"
+        },
+        {
+          "Name": "label",
+          "Value": "js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wxUIroK2YAgA74IEgQg+C0efkDllyH+rMekdKaAQzHs="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.js",
+      "AssetFile": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wxUIroK2YAgA74IEgQg+C0efkDllyH+rMekdKaAQzHs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 11:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wxUIroK2YAgA74IEgQg+C0efkDllyH+rMekdKaAQzHs="
+        }
+      ]
+    },
+    {
+      "Route": "js/signup.80jjzq77bh.js",
+      "AssetFile": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\js\\signup.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1626"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+MGfZ4QJMJRpK8nmtK9YSsQ+E4Xmb+Jk8NohErXV4Rw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 11:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "80jjzq77bh"
+        },
+        {
+          "Name": "label",
+          "Value": "js/signup.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+MGfZ4QJMJRpK8nmtK9YSsQ+E4Xmb+Jk8NohErXV4Rw="
+        }
+      ]
+    },
+    {
+      "Route": "js/signup.js",
+      "AssetFile": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\js\\signup.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1626"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+MGfZ4QJMJRpK8nmtK9YSsQ+E4Xmb+Jk8NohErXV4Rw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 11:32:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+MGfZ4QJMJRpK8nmtK9YSsQ+E4Xmb+Jk8NohErXV4Rw="
         }
       ]
     },

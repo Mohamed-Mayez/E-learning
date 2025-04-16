@@ -1,9 +1,11 @@
 using System.Diagnostics;
 using E_learningPro.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace E_learningPro.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -17,7 +19,10 @@ namespace E_learningPro.Controllers
         {
             return View();
         }
-
+        public IActionResult Courses()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();

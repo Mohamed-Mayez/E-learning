@@ -28,6 +28,7 @@ namespace E_learningPro
 
             // My Services ///////////////////////////////////////////////////////
             builder.Services.AddScoped<IAccountService, AccountService>();
+            builder.Services.AddScoped<IAuthService, AuthService>();
 
             //////////////////////////////////////////////////////////////////////
             var app = builder.Build();
@@ -49,7 +50,7 @@ namespace E_learningPro
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(

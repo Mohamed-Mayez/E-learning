@@ -1,4 +1,5 @@
 ﻿using E_LearningPro.Services.DTOs.Account;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace E_LearningPro.Services.Interfaces
 {
     public interface IAccountService
     {
-        Task<bool> RegisterAsync(RegisterDto model);
+        Task<IdentityResult> RegisterAsync(RegisterDto model);
         Task<UserDto> GetUserAsync(int id);
     }
 }

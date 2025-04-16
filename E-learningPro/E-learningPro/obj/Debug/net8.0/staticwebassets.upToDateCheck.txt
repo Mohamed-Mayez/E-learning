@@ -1,5 +1,13 @@
+wwwroot\css\courses.css
+wwwroot\css\login.css
+wwwroot\css\signup.css
 wwwroot\css\site.css
+wwwroot\css\style.css
 wwwroot\favicon.ico
+wwwroot\js\courses.js
+wwwroot\js\login.js
+wwwroot\js\main.js
+wwwroot\js\signup.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

@@ -5,12 +5,44 @@
       "PackagePath": "staticwebassets\\E-learningPro.web.ay970h608o.bundle.scp.css"
     },
     {
+      "Id": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\css\\courses.css",
+      "PackagePath": "staticwebassets\\css\\courses.css"
+    },
+    {
+      "Id": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\css\\signup.css",
+      "PackagePath": "staticwebassets\\css\\signup.css"
+    },
+    {
       "Id": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\js\\courses.js",
+      "PackagePath": "staticwebassets\\js\\courses.js"
+    },
+    {
+      "Id": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\js\\signup.js",
+      "PackagePath": "staticwebassets\\js\\signup.js"
     },
     {
       "Id": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\wwwroot\\js\\site.js",

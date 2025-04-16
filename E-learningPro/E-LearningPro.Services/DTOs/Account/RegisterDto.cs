@@ -24,7 +24,6 @@ namespace E_LearningPro.Services.DTOs.Account
         [DataType(DataType.Password)]
         [Required]
         public string? ConfirmPassword { get; set; }
-        [Required]
         public string? Role { get; set; } // "Admin", "Instructor", "Learner"
    
     }

@@ -17,10 +17,10 @@ namespace E_LearningPro.Services.Services
         {
             _userManager = userManager;
         }
-        public async Task<bool> RegisterAsync(RegisterDto model)
+        public async Task<IdentityResult> RegisterAsync(RegisterDto model)
         {
             if(model is null)
-                return false;
+                return new IdentityResult();
             var user = new ApplicationUser
             {
                 UserName = model.Email,
@@ -30,9 +30,9 @@ namespace E_LearningPro.Services.Services
             };
             var result = await _userManager.CreateAsync(user, model.Password!);
             if (!result.Succeeded) 
-                return false;
+                return result;
             await _userManager.AddToRoleAsync(user, model.Role!);
-            return true;
+            return result;
         }
         public async Task<UserDto> GetUserAsync(int id)
         {
