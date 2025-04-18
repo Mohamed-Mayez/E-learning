@@ -9,7 +9,6 @@
 
   <ItemGroup>
 	 <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.14" />
-    <Folder Include="Interfaces\" />
   </ItemGroup>
 
 </Project>

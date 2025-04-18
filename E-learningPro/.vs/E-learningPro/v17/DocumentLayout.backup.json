@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|solutionrelative:e-learningpro\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.data\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|solutionrelative:e-learningpro.data\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|solutionrelative:e-learningpro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.data\\e-learningpro.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|solutionrelative:e-learningpro.data\\e-learningpro.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro\\views\\home\\courses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|solutionrelative:e-learningpro\\views\\home\\courses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|solutionrelative:e-learningpro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|solutionrelative:e-learningpro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|solutionrelative:e-learningpro\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|solutionrelative:e-learningpro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.data\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|solutionrelative:e-learningpro.data\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "E-LearningPro.Data",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\E-LearningPro.Data.csproj",
+              "RelativeDocumentMoniker": "E-LearningPro.Data\\E-LearningPro.Data.csproj",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\E-LearningPro.Data.csproj*",
+              "RelativeToolTip": "E-LearningPro.Data\\E-LearningPro.Data.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-18T15:49:03.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_NavBar.cshtml",
-              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Views\\Shared\\_NavBar.cshtml",
-              "RelativeDocumentMoniker": "E-learningPro\\Views\\Shared\\_NavBar.cshtml",
-              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Views\\Shared\\_NavBar.cshtml",
-              "RelativeToolTip": "E-learningPro\\Views\\Shared\\_NavBar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T14:18:49.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Signup.cshtml",
-              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Views\\Account\\Signup.cshtml",
-              "RelativeDocumentMoniker": "E-learningPro\\Views\\Account\\Signup.cshtml",
-              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Views\\Account\\Signup.cshtml",
-              "RelativeToolTip": "E-learningPro\\Views\\Account\\Signup.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T14:16:46.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "E-learningPro\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "E-learningPro\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T14:15:53.879Z",
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "E-LearningPro.Data\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\Repositories\\UnitOfWork.cs*",
+              "RelativeToolTip": "E-LearningPro.Data\\Repositories\\UnitOfWork.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAA5wCEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T15:31:47.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Courses.cshtml",
-              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Views\\Home\\Courses.cshtml",
-              "RelativeDocumentMoniker": "E-learningPro\\Views\\Home\\Courses.cshtml",
-              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Views\\Home\\Courses.cshtml",
-              "RelativeToolTip": "E-learningPro\\Views\\Home\\Courses.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T14:12:45.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Program.cs",
-              "RelativeDocumentMoniker": "E-learningPro\\Program.cs",
-              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Program.cs",
-              "RelativeToolTip": "E-learningPro\\Program.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwDUAAAAjAAAAAAAAAA==",
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "E-LearningPro.Data\\Repositories\\GenericRepository.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "E-LearningPro.Data\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAwAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T14:03:09.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "E-learningPro\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "E-learningPro\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T13:58:44.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "E-learningPro\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "E-learningPro\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwBUAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T13:58:34.877Z",
+              "WhenOpened": "2025-04-18T15:23:04.042Z",
               "EditorCaption": ""
             }
           ]

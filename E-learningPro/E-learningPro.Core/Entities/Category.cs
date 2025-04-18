@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace E_learningPro.Core.Entities
 {
-    public class Category
+    public class Category : BaseEntity
     {
         public int CategoryID { get; set; }
         [Required, MaxLength(255)]

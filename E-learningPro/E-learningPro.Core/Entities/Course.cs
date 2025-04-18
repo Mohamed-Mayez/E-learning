@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace E_learningPro.Core.Entities
 {
-    public class Course
+    public class Course : BaseEntity
     {
         public int CourseID { get; set; }
         [Required, MaxLength(255)]
@@ -15,8 +15,6 @@ namespace E_learningPro.Core.Entities
         public int InstructorID { get; set; }
         public int? CategoryID { get; set; }
         public string? Thumbnail { get; set; }
-        public DateTime? CreatedAt { get; set; } = DateTime.UtcNow;
-        public DateTime? UpdatedAt { get; set; } = DateTime.UtcNow;
         public ApplicationUser? Instructor { get; set; } = null!;
         public Category? Category { get; set; }
         public ICollection<Lesson>? Lessons { get; set; }

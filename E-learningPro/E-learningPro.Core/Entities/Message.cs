@@ -2,7 +2,7 @@ using E_learningPro.Core.Enums;
 
 namespace E_learningPro.Core.Entities
 {
-    public class Message
+    public class Message : BaseEntity
     {
         public int MessageID { get; set; }
         public int ChatID { get; set; }

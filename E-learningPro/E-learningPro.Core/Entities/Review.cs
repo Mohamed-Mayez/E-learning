@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace E_learningPro.Core.Entities
 {
-    public class Review
+    public class Review : BaseEntity
     {
         public int ReviewID { get; set; }
         public int UserID { get; set; }
@@ -10,7 +10,6 @@ namespace E_learningPro.Core.Entities
         [Range(1, 5)]
         public int Rating { get; set; }
         public string? Comment { get; set; }
-        public DateTime? CreatedAt { get; set; } = DateTime.UtcNow;
         public ApplicationUser User { get; set; } = null!;
         public Course Course { get; set; } = null!;
     }

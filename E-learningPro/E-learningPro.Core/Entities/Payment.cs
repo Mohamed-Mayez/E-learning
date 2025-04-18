@@ -4,7 +4,7 @@ using E_learningPro.Core.Enums;
 
 namespace E_learningPro.Core.Entities
 {
-    public class Payment
+    public class Payment : BaseEntity
     {
         public int PaymentID { get; set; }
 

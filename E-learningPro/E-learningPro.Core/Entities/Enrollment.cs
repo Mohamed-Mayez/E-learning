@@ -2,7 +2,7 @@ using E_learningPro.Core.Enums;
 
 namespace E_learningPro.Core.Entities
 {
-    public class Enrollment
+    public class Enrollment : BaseEntity
     {
         public int EnrollmentID { get; set; }
         public int UserID { get; set; }
