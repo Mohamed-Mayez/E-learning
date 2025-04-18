@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Logic Documentation</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .logic-section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .logic-section h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #eee;
+        }
+        
+        .logic-item {
+            margin-bottom: 1.5rem;
+        }
+        
+        .logic-item h4 {
+            color: #34495e;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .table-info {
+            background-color: #f8f9fa;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+        
+        .table-info h5 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        
+        .table-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .table-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .table-list li:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-5">
+        <h1 class="mb-4">Business Logic Documentation</h1>
+        
+        <!-- User Management Section -->
+        <div class="logic-section">
+            <h3><i class="fas fa-users"></i> User Management</h3>
+            <div class="logic-item">
+                <h4>User Registration</h4>
+                <p>A new user signs up with a Full Name, Email, Password (hashed), and a Role (Instructor or Learner).</p>
+            </div>
+            <div class="logic-item">
+                <h4>Authentication</h4>
+                <p>When a user logs in, their credentials are checked against the Users table.</p>
+            </div>
+            <div class="logic-item">
+                <h4>Profile Management</h4>
+                <p>Users can update their Profile Picture, Bio, and other details.</p>
+            </div>
+            <div class="logic-item">
+                <h4>Role-Based Access</h4>
+                <ul>
+                    <li>Learners can enroll in courses and leave reviews.</li>
+                    <li>Instructors can create courses and upload lessons.</li>
+                    <li>Admins can approve courses, handle disputes, and manage users.</li>
+                </ul>
+            </div>
+            <div class="table-info">
+                <h5>Tables Involved:</h5>
+                <ul class="table-list">
+                    <li>Users</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Course & Lesson Management Section -->
+        <div class="logic-section">
+            <h3><i class="fas fa-book"></i> Course & Lesson Management</h3>
+            <div class="logic-item">
+                <h4>Instructor Creates a Course</h4>
+                <p>Instructor adds a Title, Description, Price, Category, and Thumbnail in the Courses table.</p>
+            </div>
+            <div class="logic-item">
+                <h4>Instructor Adds Lessons</h4>
+                <ul>
+                    <li>Each course has multiple lessons stored in the Lessons table.</li>
+                    <li>Lessons contain Content URL (for video, PDFs, quizzes).</li>
+                </ul>
+            </div>
+            <div class="logic-item">
+                <h4>Course Approval</h4>
+                <p>New courses are marked as Pending until an Admin approves them.</p>
+            </div>
+            <div class="table-info">
+                <h5>Tables Involved:</h5>
+                <ul class="table-list">
+                    <li>Users</li>
+                    <li>Courses</li>
+                    <li>Lessons</li>
+                    <li>Categories</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Course Enrollment & Payment Section -->
+        <div class="logic-section">
+            <h3><i class="fas fa-graduation-cap"></i> Course Enrollment & Payment</h3>
+            <div class="logic-item">
+                <h4>Learner Enrolls in a Course</h4>
+                <ul>
+                    <li>Learner selects a course and initiates payment.</li>
+                    <li>If the payment is successful, an entry is added to the Enrollments table.</li>
+                </ul>
+            </div>
+            <div class="logic-item">
+                <h4>Handling Payments</h4>
+                <ul>
+                    <li>The learner makes a Payment (Amount, PaymentMethod, TransactionID).</li>
+                    <li>If the transaction is successful, the PaymentStatus is set to Completed.</li>
+                    <li>The learner is then marked as Enrolled in the Enrollments table.</li>
+                </ul>
+            </div>
+            <div class="logic-item">
+                <h4>Refunds</h4>
+                <p>If a refund is requested, the PaymentStatus is updated to Refunded, and access to the course is revoked.</p>
+            </div>
+            <div class="table-info">
+                <h5>Tables Involved:</h5>
+                <ul class="table-list">
+                    <li>Users</li>
+                    <li>Courses</li>
+                    <li>Enrollments</li>
+                    <li>Payments</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Progress Tracking Section -->
+        <div class="logic-section">
+            <h3><i class="fas fa-chart-line"></i> Progress Tracking</h3>
+            <div class="logic-item">
+                <h4>Progress Management</h4>
+                <ul>
+                    <li>When a learner starts a lesson, an entry is added to the Progress table.</li>
+                    <li>The Status field in Progress is updated when they complete a lesson.</li>
+                    <li>The LastAccessedAt field is updated when a learner revisits a lesson.</li>
+                </ul>
+            </div>
+            <div class="table-info">
+                <h5>Tables Involved:</h5>
+                <ul class="table-list">
+                    <li>Users</li>
+                    <li>Courses</li>
+                    <li>Lessons</li>
+                    <li>Progress</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Course Reviews & Ratings Section -->
+        <div class="logic-section">
+            <h3><i class="fas fa-star"></i> Course Reviews & Ratings</h3>
+            <div class="logic-item">
+                <h4>Review System</h4>
+                <ul>
+                    <li>Only Enrolled Learners can leave a review.</li>
+                    <li>A review consists of a Rating (1-5) and a Comment.</li>
+                    <li>The average rating of a course is calculated from all its reviews.</li>
+                </ul>
+            </div>
+            <div class="table-info">
+                <h5>Tables Involved:</h5>
+                <ul class="table-list">
+                    <li>Users</li>
+                    <li>Courses</li>
+                    <li>Reviews</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Chat System Section -->
+        <div class="logic-section">
+            <h3><i class="fas fa-comments"></i> Chat System</h3>
+            <div class="logic-item">
+                <h4>Communication Flow</h4>
+                <ul>
+                    <li>A learner can start a chat with an instructor.</li>
+                    <li>A new Chat Session (ChatID) is created.</li>
+                    <li>Messages are stored in the Messages table, linking to the chat session.</li>
+                    <li>Messages can be Text, Images, or Videos.</li>
+                    <li>Unread messages are tracked for notifications.</li>
+                </ul>
+            </div>
+            <div class="table-info">
+                <h5>Tables Involved:</h5>
+                <ul class="table-list">
+                    <li>Users</li>
+                    <li>Chats</li>
+                    <li>Messages</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Admin Management Section -->
+        <div class="logic-section">
+            <h3><i class="fas fa-user-shield"></i> Admin Management</h3>
+            <div class="logic-item">
+                <h4>Administrative Functions</h4>
+                <ul>
+                    <li>Manage Users: Admin can block/unblock users.</li>
+                    <li>Manage Courses: Approve/reject courses before publishing.</li>
+                    <li>Handle Payments: Process refunds if needed.</li>
+                    <li>Monitor Reviews: Delete fake or abusive reviews.</li>
+                </ul>
+            </div>
+            <div class="table-info">
+                <h5>Tables Involved:</h5>
+                <ul class="table-list">
+                    <li>Users</li>
+                    <li>Courses</li>
+                    <li>Payments</li>
+                    <li>Reviews</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
