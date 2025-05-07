@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.data\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|solutionrelative:e-learningpro.data\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|solutionrelative:e-learningpro\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.data\\e-learningpro.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|solutionrelative:e-learningpro.data\\e-learningpro.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.data\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|solutionrelative:e-learningpro.data\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro\\e-learningpro.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|solutionrelative:e-learningpro\\e-learningpro.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "E-LearningPro.Data",
-              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\E-LearningPro.Data.csproj",
-              "RelativeDocumentMoniker": "E-LearningPro.Data\\E-LearningPro.Data.csproj",
-              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\E-LearningPro.Data.csproj*",
-              "RelativeToolTip": "E-LearningPro.Data\\E-LearningPro.Data.csproj*",
+              "Title": "E-learningPro.web",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\E-learningPro.web.csproj",
+              "RelativeDocumentMoniker": "E-learningPro\\E-learningPro.web.csproj",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\E-learningPro.web.csproj",
+              "RelativeToolTip": "E-learningPro\\E-learningPro.web.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-18T15:49:03.87Z",
+              "WhenOpened": "2025-04-26T15:58:52.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "E-LearningPro.Data\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\Repositories\\UnitOfWork.cs*",
-              "RelativeToolTip": "E-LearningPro.Data\\Repositories\\UnitOfWork.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAA5wCEAAAAfAAAAAAAAAA==",
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "E-learningPro\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "E-learningPro\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T15:31:47.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "E-LearningPro.Data\\Repositories\\GenericRepository.cs",
-              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "E-LearningPro.Data\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAwAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T15:23:04.042Z",
+              "WhenOpened": "2025-04-26T15:57:33.241Z",
               "EditorCaption": ""
             }
           ]

@@ -1,10 +1,12 @@
 using E_learningPro.Core.Entities;
 using E_learningPro.Helpers;
 using E_LearningPro.Data;
+using E_LearningPro.Services.DTOs;
 using E_LearningPro.Services.Interfaces;
 using E_LearningPro.Services.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using System.Configuration;
 using System.Threading.Tasks;
 
 namespace E_learningPro
@@ -29,6 +31,8 @@ namespace E_learningPro
             // My Services ///////////////////////////////////////////////////////
             builder.Services.AddScoped<IAccountService, AccountService>();
             builder.Services.AddScoped<IAuthService, AuthService>();
+            builder.Services.AddScoped<IPaymentService, PaymentService>();
+            builder.Services.Configure<PaymobConfig>(builder.Configuration.GetSection("Paymob"));
 
             //////////////////////////////////////////////////////////////////////
             var app = builder.Build();

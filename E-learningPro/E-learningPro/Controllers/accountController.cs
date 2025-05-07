@@ -62,5 +62,10 @@ namespace E_learningPro.Controllers
             }
             return View(user);
         }
+        public async Task<IActionResult> LogOut()
+        {
+            await _authService.LogoutAsync();
+            return RedirectToAction("Login");
+        }
     }
 }
