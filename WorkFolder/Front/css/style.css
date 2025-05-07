@@ -223,4 +223,76 @@ footer a:hover {
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: #007bff }
+}
+
+/* Rating Styles */
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating i {
+    font-size: 0.9rem;
+    margin-right: 2px;
+}
+
+.rating span {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.rating .text-warning {
+    color: #ffc107 !important;
+}
+
+/* Progress Bar Styles */
+.progress {
+    height: 10px;
+    border-radius: 5px;
+    background-color: #e9ecef;
+}
+
+.progress-bar {
+    background-color: #007bff;
+    transition: width 0.6s ease;
+}
+
+/* Stats Card Styles */
+.stats-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.stats-card .card-body {
+    padding: 2rem;
+}
+
+.stats-card i {
+    transition: transform 0.3s ease;
+}
+
+.stats-card:hover i {
+    transform: scale(1.1);
+}
+
+/* Course Card in My Learning */
+.card .row {
+    height: 100%;
+}
+
+.card .img-fluid {
+    border-top-left-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
+}
+
+@media (max-width: 768px) {
+    .card .img-fluid {
+        border-top-left-radius: 0.375rem;
+        border-top-right-radius: 0.375rem;
+        border-bottom-left-radius: 0;
+    }
 } 
