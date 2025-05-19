@@ -3,12 +3,76 @@
   "WorkspaceRootPath": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.data\\applicationdbcontext.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|solutionrelative:e-learningpro.data\\applicationdbcontext.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD7BE753-ED44-4694-A09F-886126F954E4}|E-LearningPro.Services\\E-LearningPro.Services.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.services\\dtos\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD7BE753-ED44-4694-A09F-886126F954E4}|E-LearningPro.Services\\E-LearningPro.Services.csproj|solutionrelative:e-learningpro.services\\dtos\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD7BE753-ED44-4694-A09F-886126F954E4}|E-LearningPro.Services\\E-LearningPro.Services.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.services\\dtos\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD7BE753-ED44-4694-A09F-886126F954E4}|E-LearningPro.Services\\E-LearningPro.Services.csproj|solutionrelative:e-learningpro.services\\dtos\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD7BE753-ED44-4694-A09F-886126F954E4}|E-LearningPro.Services\\E-LearningPro.Services.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.services\\dtos\\paymobconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD7BE753-ED44-4694-A09F-886126F954E4}|E-LearningPro.Services\\E-LearningPro.Services.csproj|solutionrelative:e-learningpro.services\\dtos\\paymobconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD7BE753-ED44-4694-A09F-886126F954E4}|E-LearningPro.Services\\E-LearningPro.Services.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.services\\dtos\\transactionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD7BE753-ED44-4694-A09F-886126F954E4}|E-LearningPro.Services\\E-LearningPro.Services.csproj|solutionrelative:e-learningpro.services\\dtos\\transactionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.data\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|solutionrelative:e-learningpro.data\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD7BE753-ED44-4694-A09F-886126F954E4}|E-LearningPro.Services\\E-LearningPro.Services.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.services\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD7BE753-ED44-4694-A09F-886126F954E4}|E-LearningPro.Services\\E-LearningPro.Services.csproj|solutionrelative:e-learningpro.services\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD7BE753-ED44-4694-A09F-886126F954E4}|E-LearningPro.Services\\E-LearningPro.Services.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD7BE753-ED44-4694-A09F-886126F954E4}|E-LearningPro.Services\\E-LearningPro.Services.csproj|solutionrelative:e-learningpro.services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD7BE753-ED44-4694-A09F-886126F954E4}|E-LearningPro.Services\\E-LearningPro.Services.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD7BE753-ED44-4694-A09F-886126F954E4}|E-LearningPro.Services\\E-LearningPro.Services.csproj|solutionrelative:e-learningpro.services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD7BE753-ED44-4694-A09F-886126F954E4}|E-LearningPro.Services\\E-LearningPro.Services.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.services\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD7BE753-ED44-4694-A09F-886126F954E4}|E-LearningPro.Services\\E-LearningPro.Services.csproj|solutionrelative:e-learningpro.services\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9641B84F-A999-4BC7-A90C-72718DF20466}|E-learningPro.Core\\E-learningPro.Core.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.core\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9641B84F-A999-4BC7-A90C-72718DF20466}|E-learningPro.Core\\E-learningPro.Core.csproj|solutionrelative:e-learningpro.core\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9641B84F-A999-4BC7-A90C-72718DF20466}|E-learningPro.Core\\E-learningPro.Core.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.core\\entities\\progress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9641B84F-A999-4BC7-A90C-72718DF20466}|E-learningPro.Core\\E-learningPro.Core.csproj|solutionrelative:e-learningpro.core\\entities\\progress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9641B84F-A999-4BC7-A90C-72718DF20466}|E-learningPro.Core\\E-learningPro.Core.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.core\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9641B84F-A999-4BC7-A90C-72718DF20466}|E-learningPro.Core\\E-learningPro.Core.csproj|solutionrelative:e-learningpro.core\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9641B84F-A999-4BC7-A90C-72718DF20466}|E-learningPro.Core\\E-learningPro.Core.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.core\\entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9641B84F-A999-4BC7-A90C-72718DF20466}|E-learningPro.Core\\E-learningPro.Core.csproj|solutionrelative:e-learningpro.core\\entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|solutionrelative:e-learningpro\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro\\e-learningpro.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|solutionrelative:e-learningpro\\e-learningpro.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.data\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|solutionrelative:e-learningpro.data\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBD41F4-439E-4A9D-A0A0-43B22250ADA2}|E-learningPro\\E-learningPro.web.csproj|solutionrelative:e-learningpro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|d:\\depi\\project\\e-learning\\e-learningpro\\e-learningpro.data\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59C3F95-6533-4568-BCE8-BEE062DA7B44}|E-LearningPro.Data\\E-LearningPro.Data.csproj|solutionrelative:e-learningpro.data\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +82,242 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "E-learningPro.web.csproj",
-              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\E-learningPro.web.csproj",
-              "RelativeDocumentMoniker": "E-learningPro\\E-learningPro.web.csproj",
-              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\E-learningPro.web.csproj",
-              "RelativeToolTip": "E-learningPro\\E-learningPro.web.csproj",
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Services\\DTOs\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "E-LearningPro.Services\\DTOs\\AuthResponse.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Services\\DTOs\\AuthResponse.cs",
+              "RelativeToolTip": "E-LearningPro.Services\\DTOs\\AuthResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-26T15:58:52.083Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:38:04.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderResponse.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Services\\DTOs\\OrderResponse.cs",
+              "RelativeDocumentMoniker": "E-LearningPro.Services\\DTOs\\OrderResponse.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Services\\DTOs\\OrderResponse.cs",
+              "RelativeToolTip": "E-LearningPro.Services\\DTOs\\OrderResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:38:02.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymobConfig.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Services\\DTOs\\PaymobConfig.cs",
+              "RelativeDocumentMoniker": "E-LearningPro.Services\\DTOs\\PaymobConfig.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Services\\DTOs\\PaymobConfig.cs",
+              "RelativeToolTip": "E-LearningPro.Services\\DTOs\\PaymobConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:38:00.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransactionResponse.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Services\\DTOs\\TransactionResponse.cs",
+              "RelativeDocumentMoniker": "E-LearningPro.Services\\DTOs\\TransactionResponse.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Services\\DTOs\\TransactionResponse.cs",
+              "RelativeToolTip": "E-LearningPro.Services\\DTOs\\TransactionResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:37:56.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "E-LearningPro.Data\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "E-LearningPro.Data\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:36:13.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Services\\Interfaces\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "E-LearningPro.Services\\Interfaces\\IPaymentService.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Services\\Interfaces\\IPaymentService.cs",
+              "RelativeToolTip": "E-LearningPro.Services\\Interfaces\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:36:01.59Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\ApplicationDbContext.cs.cs",
+              "RelativeDocumentMoniker": "E-LearningPro.Data\\ApplicationDbContext.cs.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\ApplicationDbContext.cs.cs",
+              "RelativeToolTip": "E-LearningPro.Data\\ApplicationDbContext.cs.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAADwv2UAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:33:32.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "E-LearningPro.Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "E-LearningPro.Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:35:59.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Services\\Interfaces\\IAccountService.cs",
+              "RelativeDocumentMoniker": "E-LearningPro.Services\\Interfaces\\IAccountService.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Services\\Interfaces\\IAccountService.cs",
+              "RelativeToolTip": "E-LearningPro.Services\\Interfaces\\IAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:35:56.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro.Core\\Entities\\Review.cs",
+              "RelativeDocumentMoniker": "E-learningPro.Core\\Entities\\Review.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro.Core\\Entities\\Review.cs",
+              "RelativeToolTip": "E-learningPro.Core\\Entities\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:33:25.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Progress.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro.Core\\Entities\\Progress.cs",
+              "RelativeDocumentMoniker": "E-learningPro.Core\\Entities\\Progress.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro.Core\\Entities\\Progress.cs",
+              "RelativeToolTip": "E-learningPro.Core\\Entities\\Progress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:33:23.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro.Core\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "E-learningPro.Core\\Entities\\Payment.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro.Core\\Entities\\Payment.cs",
+              "RelativeToolTip": "E-learningPro.Core\\Entities\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:33:21.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Message.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro.Core\\Entities\\Message.cs",
+              "RelativeDocumentMoniker": "E-learningPro.Core\\Entities\\Message.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro.Core\\Entities\\Message.cs",
+              "RelativeToolTip": "E-learningPro.Core\\Entities\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:33:12.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "E-learningPro\\Controllers\\PaymentController.cs",
               "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Controllers\\PaymentController.cs",
               "RelativeToolTip": "E-learningPro\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T15:57:33.241Z",
+              "WhenOpened": "2025-05-19T17:06:34.333Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Program.cs",
+              "RelativeDocumentMoniker": "E-learningPro\\Program.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-learningPro\\Program.cs",
+              "RelativeToolTip": "E-learningPro\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T11:34:34.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Services\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "E-LearningPro.Services\\Services\\AccountService.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Services\\Services\\AccountService.cs",
+              "RelativeToolTip": "E-LearningPro.Services\\Services\\AccountService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:19:24.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "E-LearningPro.Data\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "E-LearningPro.Data\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:43:34.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "E-LearningPro.Data\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "D:\\DEPI\\Project\\E-learning\\E-learningPro\\E-LearningPro.Data\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "E-LearningPro.Data\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:40:13.166Z"
             }
           ]
         }
