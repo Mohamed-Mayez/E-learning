@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentora - Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <img src="3.png" alt="Mentora Logo">
+                <h2>Mentora</h2>
+            </div>
+            <div class="sidebar-menu">
+                <div class="menu-title">Main</div>
+                <a href="#" class="menu-item active">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span>Dashboard</span>
+                </a>
+                
+                <!-- Admin Menu -->
+                <div id="admin-menu">
+                    <div class="menu-title">Admin</div>
+                    <a href="#" class="menu-item">
+                        <i class="fas fa-users"></i>
+                        <span>User Management</span>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <i class="fas fa-book"></i>
+                        <span>Course Management</span>
+                        <span class="menu-badge">5</span>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <i class="fas fa-credit-card"></i>
+                        <span>Payments</span>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <i class="fas fa-star"></i>
+                        <span>Reviews</span>
+                        <span class="menu-badge">3</span>
+                    </a>
+                </div>
+                
+                <!-- Instructor Menu -->
+                <div id="instructor-menu" style="display: none;">
+                    <div class="menu-title">Instructor</div>
+                    <a href="#" class="menu-item">
+                        <i class="fas fa-book"></i>
+                        <span>My Courses</span>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <i class="fas fa-plus-circle"></i>
+                        <span>Create Course</span>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Analytics</span>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <i class="fas fa-comments"></i>
+                        <span>Messages</span>
+                        <span class="menu-badge">2</span>
+                    </a>
+                </div>
+                
+                <!-- Learner Menu -->
+                <div id="learner-menu" style="display: none;">
+                    <div class="menu-title">Learner</div>
+                    <a href="#" class="menu-item">
+                        <i class="fas fa-book-open"></i>
+                        <span>My Learning</span>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <i class="fas fa-heart"></i>
+                        <span>Wishlist</span>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <i class="fas fa-comments"></i>
+                        <span>Messages</span>
+                        <span class="menu-badge">1</span>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <i class="fas fa-history"></i>
+                        <span>Payment History</span>
+                    </a>
+                </div>
+                
+                <div class="menu-title">Account</div>
+                <a href="#" class="menu-item">
+                    <i class="fas fa-cog"></i>
+                    <span>Settings</span>
+                </a>
+                <a href="#" class="menu-item">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <div class="header">
+                <div class="header-title">
+                    <h1>Dashboard</h1>
+                    <p>Welcome back, Shahd37!</p>
+                </div>
+                <div class="header-actions">
+                    <div class="search-bar">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Search...">
+                    </div>
+                    <div class="user-profile">
+                        <div class="user-avatar">S</div>
+                        <span class="user-name">Shahd37</span>
+                        <i class="fas fa-chevron-down"></i>
+                        <div class="user-dropdown">
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-user"></i> Profile
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-cog"></i> Settings
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-sign-out-alt"></i> Logout
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dashboard Tabs -->
+            <div class="tabs">
+                <div class="tab active" onclick="showDashboard('admin')">Admin</div>
+                <div class="tab active" onclick="showDashboard('instructor')">Instructor</div>
+                <div class="tab" onclick="showDashboard('learner')">Learner</div>
+            </div>
+
+            <!-- Admin Dashboard -->
+            <div id="admin-dashboard" class="tab-content active">
+                <!-- Widgets -->
+                <div class="dashboard-widgets">
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div>
+                                <div class="widget-title">Total Users</div>
+                                <div class="widget-value">1,248</div>
+                            </div>
+                            <div class="widget-icon primary">
+                                <i class="fas fa-users"></i>
+                            </div>
+                        </div>
+                        <div class="widget-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">Admins</span>
+                                <span class="stat-value">12</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Instructors</span>
+                                <span class="stat-value">85</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Learners</span>
+                                <span class="stat-value">1,137</span>
+                            </div>
+                        </div>
+                        <div class="widget-footer positive">
+                            <i class="fas fa-arrow-up"></i> 13.7% from last month
+                        </div>
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div>
+                                <div class="widget-title">Total Courses</div>
+                                <div class="widget-value">327</div>
+                            </div>
+                            <div class="widget-icon success">
+                                <i class="fas fa-book"></i>
+                            </div>
+                        </div>
+                        <div class="widget-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">Approved</span>
+                                <span class="stat-value">298</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Pending</span>
+                                <span class="stat-value">5</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Rejected</span>
+                                <span class="stat-value">24</span>
+                            </div>
+                        </div>
+                        <div class="widget-footer positive">
+                            <i class="fas fa-arrow-up"></i> 8.3% from last month
+                        </div>
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div>
+                                <div class="widget-title">Total Payments</div>
+                                <div class="widget-value">$24,785</div>
+                            </div>
+                            <div class="widget-icon warning">
+                                <i class="fas fa-credit-card"></i>
+                            </div>
+                        </div>
+                        <div class="widget-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">Completed</span>
+                                <span class="stat-value">$23,450</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Refunded</span>
+                                <span class="stat-value">$1,210</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Failed</span>
+                                <span class="stat-value">$125</span>
+                            </div>
+                        </div>
+                        <div class="widget-footer positive">
+                            <i class="fas fa-arrow-up"></i> 15.2% from last month
+                        </div>
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div>
+                                <div class="widget-title">Course Reviews</div>
+                                <div class="widget-value">1,842</div>
+                            </div>
+                            <div class="widget-icon info">
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="widget-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">Total Reviews</span>
+                                <span class="stat-value">1,842</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Flagged</span>
+                                <span class="stat-value">3</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Avg Rating</span>
+                                <span class="stat-value">4.6</span>
+                            </div>
+                        </div>
+                        <div class="widget-footer positive">
+                            <i class="fas fa-arrow-up"></i> 5.7% from last month
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pending Courses -->
+                <div class="data-section">
+                    <div class="section-header">
+                        <h3 class="section-title">Pending Course Approvals</h3>
+                        <div class="section-actions">
+                            <button class="btn btn-outline">
+                                <i class="fas fa-download"></i> Export
+                            </button>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Course Title</th>
+                                    <th>Instructor</th>
+                                    <th>Category</th>
+                                    <th>Submitted</th>
+                                    <th>Status</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Advanced Python Programming</td>
+                                    <td>Dr. Shahd Mostafa</td>
+                                    <td>Programming</td>
+                                    <td>2 days ago</td>
+                                    <td><span class="status-badge pending">Pending</span></td>
+                                    <td>
+                                        <div class="action-buttons">
+                                            <button class="action-btn view" title="View">
+                                                <i class="fas fa-eye"></i>
+                                            </button>
+                                            <button class="action-btn edit" title="Approve">
+                                                <i class="fas fa-check"></i>
+                                            </button>
+                                            <button class="action-btn delete" title="Reject">
+                                                <i class="fas fa-times"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Moblie Application Basics</td>
+                                    <td>Dr. Mohammed Abu El-Dahab</td>
+                                    <td>Marketing</td>
+                                    <td>1 day ago</td>
+                                    <td><span class="status-badge pending">Pending</span></td>
+                                    <td>
+                                        <div class="action-buttons">
+                                            <button class="action-btn view" title="View">
+                                                <i class="fas fa-eye"></i>
+                                            </button>
+                                            <button class="action-btn edit" title="Approve">
+                                                <i class="fas fa-check"></i>
+                                            </button>
+                                            <button class="action-btn delete" title="Reject">
+                                                <i class="fas fa-times"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Full-Stack Fundamentals</td>
+                                    <td>Dr. Mayez</td>
+                                    <td>Finance</td>
+                                    <td>3 days ago</td>
+                                    <td><span class="status-badge pending">Pending</span></td>
+                                    <td>
+                                        <div class="action-buttons">
+                                            <button class="action-btn view" title="View">
+                                                <i class="fas fa-eye"></i>
+                                            </button>
+                                            <button class="action-btn edit" title="Approve">
+                                                <i class="fas fa-check"></i>
+                                            </button>
+                                            <button class="action-btn delete" title="Reject">
+                                                <i class="fas fa-times"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>UI/UX Design Principles</td>
+                                    <td>Dr. Mostafa</td>
+                                    <td>Design</td>
+                                    <td>5 days ago</td>
+                                    <td><span class="status-badge pending">Pending</span></td>
+                                    <td>
+                                        <div class="action-buttons">
+                                            <button class="action-btn view" title="View">
+                                                <i class="fas fa-eye"></i>
+                                            </button>
+                                            <button class="action-btn edit" title="Approve">
+                                                <i class="fas fa-check"></i>
+                                            </button>
+                                            <button class="action-btn delete" title="Reject">
+                                                <i class="fas fa-times"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Machine Learning Basics</td>
+                                    <td>Dr. Mai Osama</td>
+                                    <td>Data Science</td>
+                                    <td>1 day ago</td>
+                                    <td><span class="status-badge pending">Pending</span></td>
+                                    <td>
+                                        <div class="action-buttons">
+                                            <button class="action-btn view" title="View">
+                                                <i class="fas fa-eye"></i>
+                                            </button>
+                                            <button class="action-btn edit" title="Approve">
+                                                <i class="fas fa-check"></i>
+                                            </button>
+                                            <button class="action-btn delete" title="Reject">
+                                                <i class="fas fa-times"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- User Management -->
+                <div class="data-section">
+                    <div class="section-header">
+                        <h3 class="section-title">User Management</h3>
+                        <div class="section-actions">
+                            <button class="btn btn-primary">
+                                <i class="fas fa-plus"></i> Add User
+                            </button>
+                            <button class="btn btn-outline">
+                                <i class="fas fa-filter"></i> Filter
+                            </button>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Role</th>
+                                    <th>Joined</th>
+                                    <th>Status</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Yassin Khalid</td>
+                                    <td>YassoKhalid@gmail.com</td>
+                                    <td>Instructor</td>
+                                    <td>Jan 12, 2022</td>
+                                    <td><span class="status-badge active">Active</span></td>
+                                    <td>
+                                        <div class="action-buttons">
+                                            <button class="action-btn edit" title="Edit">
+                                                <i class="fas fa-edit"></i>
+                                            </button>
+                                            <button class="action-btn block" title="Block">
+                                                <i class="fas fa-ban"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Mayez</td>
+                                    <td>Mohamed_mayez@gmail.com</td>
+                                    <td>Admin</td>
+                                    <td>Mar 5, 2022</td>
+                                    <td><span class="status-badge active">Active</span></td>
+                                    <td>
+                                        <div class="action-buttons">
+                                            <button class="action-btn edit" title="Edit">
+                                                <i class="fas fa-edit"></i>
+                                            </button>
+                                            <button class="action-btn block" title="Block">
+                                                <i class="fas fa-ban"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Mina Nabil</td>
+                                    <td>Mina_nabil111.com</td>
+                                    <td>Learner</td>
+                                    <td>Apr 18, 2022</td>
+                                    <td><span class="status-badge active">Active</span></td>
+                                    <td>
+                                        <div class="action-buttons">
+                                            <button class="action-btn edit" title="Edit">
+                                                <i class="fas fa-edit"></i>
+                                            </button>
+                                            <button class="action-btn block" title="Block">
+                                                <i class="fas fa-ban"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Mohammed Abu El-Dahab</td>
+                                    <td>AbuElDahabMohamed@gmail.com</td>
+                                    <td>Instructor</td>
+                                    <td>May 22, 2022</td>
+                                    <td><span class="status-badge active">Active</span></td>
+                                    <td>
+                                        <div class="action-buttons">
+                                            <button class="action-btn edit" title="Edit">
+                                                <i class="fas fa-edit"></i>
+                                            </button>
+                                            <button class="action-btn block" title="Block">
+                                                <i class="fas fa-ban"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Isaac Nabil</td>
+                                    <td>Isaac.Nabil33@gmail.com</td>
+                                    <td>Learner</td>
+                                    <td>Jun 30, 2022</td>
+                                    <td><span class="status-badge active">Blocked</span></td>
+                                    <td>
+                                        <div class="action-buttons">
+                                            <button class="action-btn edit" title="Edit">
+                                                <i class="fas fa-edit"></i>
+                                            </button>
+                                            <button class="action-btn block" title="Unblock">
+                                                <i class="fas fa-check"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Recent Transactions -->
+                <div class="data-section">
+                    <div class="section-header">
+                        <h3 class="section-title">Recent Transactions</h3>
+                        <div class="section-actions">
+                            <button class="btn btn-outline">
+                                <i class="fas fa-download"></i> Export
+                            </button>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Transaction ID</th>
+                                    <th>User</th>
+                                    <th>Course</th>
+                                    <th>Amount</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>#TRX-78945</td>
+                                    <td>Isaac Nabil</td>
+                                    <td>Python for Beginners</td>
+                                    <td>$49.99</td>
+                                    <td>Jul 15, 2023</td>
+                                    <td><span class="status-badge completed">Completed</span></td>
+                                    <td>
+                                        <div class="action-buttons">
+                                            <button class="action-btn view" title="View">
+                                                <i class="fas fa-eye"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>#TRX-78944</td>
+                                    <td>Mina Nabil</td>
+                                    <td>Digital Marketing</td>
+                                    <td>$59.99</td>
+                                    <td>Jul 14, 2023</td>
+                                    <td><span class="status-badge completed">Completed</span></td>
+                                    <td>
+                                        <div class="action-buttons">
+                                            <button class="action-btn view" title="View">
+                                                <i class="fas fa-eye"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>#TRX-78943</td>
+                                    <td>Mostafa Mahmoud</td>
+                                    <td>Financial Accounting</td>
+                                    <td>$39.99</td>
+                                    <td>Jul 14, 2023</td>
+                                    <td><span class="status-badge refunded">Refunded</span></td>
+                                    <td>
+                                        <div class="action-buttons">
+                                            <button class="action-btn view" title="View">
+                                                <i class="fas fa-eye"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>#TRX-78942</td>
+                                    <td>Sarah Ahmed</td>
+                                    <td>UI/UX Design</td>
+                                    <td>$69.99</td>
+                                    <td>Jul 13, 2023</td>
+                                    <td><span class="status-badge failed">Failed</span></td>
+                                    <td>
+                                        <div class="action-buttons">
+                                            <button class="action-btn view" title="View">
+                                                <i class="fas fa-eye"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>#TRX-78941</td>
+                                    <td>Menna Mohamed</td>
+                                    <td>Machine Learning</td>
+                                    <td>$79.99</td>
+                                    <td>Jul 12, 2023</td>
+                                    <td><span class="status-badge completed">Completed</span></td>
+                                    <td>
+                                        <div class="action-buttons">
+                                            <button class="action-btn view" title="View">
+                                                <i class="fas fa-eye"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Instructor Dashboard -->
+            <div id="instructor-dashboard" class="tab-content">
+                <!-- Widgets -->
+                <div class="dashboard-widgets">
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div>
+                                <div class="widget-title">Total Courses</div>
+                                <div class="widget-value">8</div>
+                            </div>
+                            <div class="widget-icon primary">
+                                <i class="fas fa-book"></i>
+                            </div>
+                        </div>
+                        <div class="widget-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">Published</span>
+                                <span class="stat-value">6</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Draft</span>
+                                <span class="stat-value">1</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Pending</span>
+                                <span class="stat-value">1</span>
+                            </div>
+                        </div>
+                        <div class="widget-footer positive">
+                            <i class="fas fa-arrow-up"></i> 2 new this month
+                        </div>
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div>
+                                <div class="widget-title">Total Enrollments</div>
+                                <div class="widget-value">1,245</div>
+                            </div>
+                            <div class="widget-icon success">
+                                <i class="fas fa-users"></i>
+                            </div>
+                        </div>
+                        <div class="widget-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">This Month</span>
+                                <span class="stat-value">142</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Last Month</span>
+                                <span class="stat-value">98</span>
+                            </div>
+                        </div>
+                        <div class="widget-footer positive">
+                            <i class="fas fa-arrow-up"></i> 44.9% from last month
+                        </div>
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div>
+                                <div class="widget-title">Total Earnings</div>
+                                <div class="widget-value">$12,845</div>
+                            </div>
+                            <div class="widget-icon warning">
+                                <i class="fas fa-dollar-sign"></i>
+                            </div>
+                        </div>
+                        <div class="widget-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">This Month</span>
+                                <span class="stat-value">$1,450</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Last Month</span>
+                                <span class="stat-value">$1,120</span>
+                            </div>
+                        </div>
+                        <div class="widget-footer positive">
+                            <i class="fas fa-arrow-up"></i> 29.5% from last month
+                        </div>
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div>
+                                <div class="widget-title">Average Rating</div>
+                                <div class="widget-value">4.7</div>
+                            </div>
+                            <div class="widget-icon info">
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="widget-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">Total Reviews</span>
+                                <span class="stat-value">328</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">5 Stars</span>
+                                <span class="stat-value">248</span>
+                            </div>
+                        </div>
+                        <div class="widget-footer negative">
+                            <i class="fas fa-arrow-down"></i> 0.1 from last month
+                        </div>
+                    </div>
+                </div>
+
+                <!-- My Courses -->
+                <div class="data-section">
+                    <div class="section-header">
+                        <h3 class="section-title">My Courses</h3>
+                        <div class="section-actions">
+                            <button class="btn btn-primary">
+                                <i class="fas fa-plus"></i> Create Course
+                            </button>
+                        </div>
+                    </div>
+                    <div class="course-cards">
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="py.jpg" alt="Course Image">
+                                <span class="course-status status-badge active">Published</span>
+                            </div>
+                            <div class="course-details">
+                                <h4 class="course-title">Python Programming for Beginners</h4>
+                                <p class="course-instructor">By Dr. Shahd Mostafa</p>
+                                <div class="course-meta">
+                                    <span class="course-students"><i class="fas fa-users"></i> 845 students</span>
+                                    <span class="course-rating"><i class="fas fa-star"></i> 4.8 (124)</span>
+                                </div>
+                                <div class="course-actions">
+                                    <button class="btn btn-outline">
+                                        <i class="fas fa-edit"></i> Edit
+                                    </button>
+                                    <button class="btn btn-primary">
+                                        <i class="fas fa-chart-line"></i> Analytics
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="data.jpg" alt="Course Image">
+                                <span class="course-status status-badge active">Published</span>
+                            </div>
+                            <div class="course-details">
+                                <h4 class="course-title">Advanced Data Analysis</h4>
+                                <p class="course-instructor">By Dr. Shahd Mostafa</p>
+                                <div class="course-meta">
+                                    <span class="course-students"><i class="fas fa-users"></i> 320 students</span>
+                                    <span class="course-rating"><i class="fas fa-star"></i> 4.6 (78)</span>
+                                </div>
+                                <div class="course-actions">
+                                    <button class="btn btn-outline">
+                                        <i class="fas fa-edit"></i> Edit
+                                    </button>
+                                    <button class="btn btn-primary">
+                                        <i class="fas fa-chart-line"></i> Analytics
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="mach.jpg" alt="Course Image">
+                                <span class="course-status status-badge pending">Pending</span>
+                            </div>
+                            <div class="course-details">
+                                <h4 class="course-title">Machine Learning Fundamentals</h4>
+                                <p class="course-instructor">By Dr. Shahd Mostafa</p>
+                                <div class="course-meta">
+                                    <span class="course-students"><i class="fas fa-users"></i> 0 students</span>
+                                    <span class="course-rating"><i class="fas fa-star"></i> 0 (0)</span>
+                                </div>
+                                <div class="course-actions">
+                                    <button class="btn btn-outline">
+                                        <i class="fas fa-edit"></i> Edit
+                                    </button>
+                                    <button class="btn btn-outline">
+                                        <i class="fas fa-eye"></i> Preview
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Content -->
+                <div class="data-section">
+                    <div class="section-header">
+                        <h3 class="section-title">Course Content: Python Programming for Beginners</h3>
+                        <div class="section-actions">
+                            <button class="btn btn-primary">
+                                <i class="fas fa-plus"></i> Add Lesson
+                            </button>
+                        </div>
+                    </div>
+                    <div class="lesson-list">
+                        <div class="lesson-item">
+                            <div class="lesson-icon">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="lesson-details">
+                                <h4 class="lesson-title">Introduction to Python</h4>
+                                <p class="lesson-meta">Video • 15:32 min</p>
+                            </div>
+                            <div class="lesson-actions">
+                                <button class="action-btn edit" title="Edit">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <button class="action-btn delete" title="Delete">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="lesson-item">
+                            <div class="lesson-icon">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="lesson-details">
+                                <h4 class="lesson-title">Variables and Data Types</h4>
+                                <p class="lesson-meta">Video • 22:15 min</p>
+                            </div>
+                            <div class="lesson-actions">
+                                <button class="action-btn edit" title="Edit">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <button class="action-btn delete" title="Delete">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="lesson-item">
+                            <div class="lesson-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="lesson-details">
+                                <h4 class="lesson-title">Python Cheat Sheet</h4>
+                                <p class="lesson-meta">PDF • 2.4 MB</p>
+                            </div>
+                            <div class="lesson-actions">
+                                <button class="action-btn edit" title="Edit">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <button class="action-btn delete" title="Delete">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="lesson-item">
+                            <div class="lesson-icon">
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                            <div class="lesson-details">
+                                <h4 class="lesson-title">Basic Python Quiz</h4>
+                                <p class="lesson-meta">Quiz • 10 questions</p>
+                            </div>
+                            <div class="lesson-actions">
+                                <button class="action-btn edit" title="Edit">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <button class="action-btn delete" title="Delete">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="lesson-item">
+                            <div class="lesson-icon">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="lesson-details">
+                                <h4 class="lesson-title">Control Structures</h4>
+                                <p class="lesson-meta">Video • 18:45 min</p>
+                            </div>
+                            <div class="lesson-actions">
+                                <button class="action-btn edit" title="Edit">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <button class="action-btn delete" title="Delete">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Messages -->
+                <div class="data-section">
+                    <div class="section-header">
+                        <h3 class="section-title">Messages</h3>
+                    </div>
+                    <div class="chat-container">
+                        <div class="chat-sidebar">
+                            <div class="chat-search">
+                                <i class="fas fa-search"></i>
+                                <input type="text" placeholder="Search messages...">
+                            </div>
+                            <div class="chat-list">
+                                <div class="chat-item active">
+                                    <div class="chat-avatar">SM</div>
+                                    <div class="chat-info">
+                                        <div class="chat-name">Shahd Mostafa</div>
+                                        <div class="chat-preview">Hi, I have a question about the Python course...</div>
+                                    </div>
+                                    <div class="chat-time">2h ago</div>
+                                </div>
+                                <div class="chat-item">
+                                    <div class="chat-avatar">MM</div>
+                                    <div class="chat-info">
+                                        <div class="chat-name">Mohamed Mayez</div>
+                                        <div class="chat-preview">Thanks for your help with the data analysis problem!</div>
+                                    </div>
+                                    <div class="chat-time">1d ago</div>
+                                </div>
+                                <div class="chat-item">
+                                    <div class="chat-avatar">IN</div>
+                                    <div class="chat-info">
+                                        <div class="chat-name">Isaac Nabil</div>
+                                        <div class="chat-preview">When will the next lesson be available?</div>
+                                    </div>
+                                    <div class="chat-time">2d ago</div>
+                                </div>
+                                <div class="chat-item">
+                                    <div class="chat-avatar">MN</div>
+                                    <div class="chat-info">
+                                        <div class="chat-name">Mina Nabil</div>
+                                        <div class="chat-preview">I'm having trouble with the machine learning assignment...</div>
+                                    </div>
+                                    <div class="chat-time">3d ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat-main">
+                            <div class="chat-header">
+                                <div class="chat-avatar">Sh</div>
+                                <div class="chat-header-info">
+                                    <div class="chat-header-name">Shahd Mostafa</div>
+                                    <div class="chat-header-status">Active now</div>
+                                </div>
+                            </div>
+                            <div class="chat-messages">
+                                <div class="message received">
+                                    <div class="message-content">
+                                        Hi Dr. Mohammed, I'm having trouble understanding the list comprehension section in the Python course. Could you explain it again?
+                                    </div>
+                                    <div class="message-time">Jul 15, 2:15 PM</div>
+                                </div>
+                                <div class="message sent">
+                                    <div class="message-content">
+                                        Of course, Shahd! List comprehensions are a concise way to create lists in Python. They consist of brackets containing an expression followed by a for clause, then zero or more for or if clauses.
+                                    </div>
+                                    <div class="message-time">Jul 15, 2:18 PM</div>
+                                </div>
+                                <div class="message sent">
+                                    <div class="message-content">
+                                        For example: [x**2 for x in range(10) if x % 2 == 0] creates a list of squares of even numbers from 0 to 9.
+                                    </div>
+                                    <div class="message-time">Jul 15, 2:19 PM</div>
+                                </div>
+                                <div class="message received">
+                                    <div class="message-content">
+                                        That makes sense! Thank you for the clear explanation. I'll practice with some more examples.
+                                    </div>
+                                    <div class="message-time">Jul 15, 2:22 PM</div>
+                                </div>
+                            </div>
+                            <div class="chat-input">
+                                <input type="text" placeholder="Type your message...">
+                                <button>Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Learner Dashboard -->
+            <div id="learner-dashboard" class="tab-content">
+                <!-- Widgets -->
+                <div class="dashboard-widgets">
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div>
+                                <div class="widget-title">Enrolled Courses</div>
+                                <div class="widget-value">6</div>
+                            </div>
+                            <div class="widget-icon primary">
+                                <i class="fas fa-book-open"></i>
+                            </div>
+                        </div>
+                        <div class="widget-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">In Progress</span>
+                                <span class="stat-value">3</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Completed</span>
+                                <span class="stat-value">2</span>
+                            </div>
+                        </div>
+                        <div class="widget-footer positive">
+                            <i class="fas fa-arrow-up"></i> 1 new this month
+                        </div>
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div>
+                                <div class="widget-title">Learning Hours</div>
+                                <div class="widget-value">24.5</div>
+                            </div>
+                            <div class="widget-icon success">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                        </div>
+                        <div class="widget-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">This Week</span>
+                                <span class="stat-value">5.2</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Last Week</span>
+                                <span class="stat-value">4.8</span>
+                            </div>
+                        </div>
+                        <div class="widget-footer positive">
+                            <i class="fas fa-arrow-up"></i> 8.3% from last week
+                        </div>
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div>
+                                <div class="widget-title">Certificates</div>
+                                <div class="widget-value">2</div>
+                            </div>
+                            <div class="widget-icon warning">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                        </div>
+                        <div class="widget-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">This Year</span>
+                                <span class="stat-value">1</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Last Year</span>
+                                <span class="stat-value">1</span>
+                            </div>
+                        </div>
+                        <div class="widget-footer">
+                            <i class="fas fa-minus"></i> No change
+                        </div>
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div>
+                                <div class="widget-title">Upcoming Lessons</div>
+                                <div class="widget-value">3</div>
+                            </div>
+                            <div class="widget-icon info">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                        </div>
+                        <div class="widget-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">Today</span>
+                                <span class="stat-value">1</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">This Week</span>
+                                <span class="stat-value">2</span>
+                            </div>
+                        </div>
+                        <div class="widget-footer negative">
+                            <i class="fas fa-arrow-down"></i> 1 overdue
+                        </div>
+                    </div>
+                </div>
+
+                <!-- My Courses -->
+                <div class="data-section">
+                    <div class="section-header">
+                        <h3 class="section-title">My Courses</h3>
+                    </div>
+                    <div class="course-cards">
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="py.jpg" alt="Course Image">
+                                <span class="course-status status-badge active">In Progress</span>
+                            </div>
+                            <div class="course-details">
+                                <h4 class="course-title">Python Programming for Beginners</h4>
+                                <p class="course-instructor">By Dr. Shahd Mostafa</p>
+                                <div class="course-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 65%"></div>
+                                    </div>
+                                    <div class="progress-text">
+                                        <span>65% Complete</span>
+                                        <span>8/12 Lessons</span>
+                                    </div>
+                                </div>
+                                <div class="course-actions">
+                                    <button class="btn btn-primary">
+                                        <i class="fas fa-play"></i> Continue
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="app.jpg" alt="Course Image">
+                                <span class="course-status status-badge active">In Progress</span>
+                            </div>
+                            <div class="course-details">
+                                <h4 class="course-title">Moblie Application Basics</h4>
+                                <p class="course-instructor">By Dr. Mayez</p>
+                                <div class="course-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 30%"></div>
+                                    </div>
+                                    <div class="progress-text">
+                                        <span>30% Complete</span>
+                                        <span>3/10 Lessons</span>
+                                    </div>
+                                </div>
+                                <div class="course-actions">
+                                    <button class="btn btn-primary">
+                                        <i class="fas fa-play"></i> Continue
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-card">
+                            <div class="course-image">
+                                <img src="full.jpg" alt="Course Image">
+                                <span class="course-status status-badge completed">Completed</span>
+                            </div>
+                            <div class="course-details">
+                                <h4 class="course-title">Full-Stack Fundamentals</h4>
+                                <p class="course-instructor">By Dr. Mina</p>
+                                <div class="course-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 100%"></div>
+                                    </div>
+                                    <div class="progress-text">
+                                        <span>100% Complete</span>
+                                        <span>15/15 Lessons</span>
+                                    </div>
+                                </div>
+                                <div class="course-actions">
+                                    <button class="btn btn-outline">
+                                        <i class="fas fa-certificate"></i> Certificate
+                                    </button>
+                                    <button class="btn btn-primary">
+                                        <i class="fas fa-star"></i> Review
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Upcoming Lessons -->
+                <div class="data-section">
+                    <div class="section-header">
+                        <h3 class="section-title">Upcoming Lessons</h3>
+                    </div>
+                    <div class="lesson-list">
+                        <div class="lesson-item">
+                            <div class="lesson-icon">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="lesson-details">
+                                <h4 class="lesson-title">Functions in Python</h4>
+                                <p class="lesson-meta">Python Programming • Due Tomorrow</p>
+                            </div>
+                            <div class="lesson-actions">
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-play"></i> Start
+                                </button>
+                            </div>
+                        </div>
+                        <div class="lesson-item">
+                            <div class="lesson-icon">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="lesson-details">
+                                <h4 class="lesson-title">Social Media Marketing</h4>
+                                <p class="lesson-meta">Digital Marketing • Due in 2 days</p>
+                            </div>
+                            <div class="lesson-actions">
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-play"></i> Start
+                                </button>
+                            </div>
+                        </div>
+                        <div class="lesson-item">
+                            <div class="lesson-icon">
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                            <div class="lesson-details">
+                                <h4 class="lesson-title">Python Mid-Course Quiz</h4>
+                                <p class="lesson-meta">Python Programming • Overdue</p>
+                            </div>
+                            <div class="lesson-actions">
+                                <button class="btn btn-danger">
+                                    <i class="fas fa-exclamation-circle"></i> Complete Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Activity -->
+                <div class="data-section">
+                    <div class="section-header">
+                        <h3 class="section-title">Recent Activity</h3>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Course</th>
+                                    <th>Activity</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Python Programming</td>
+                                    <td>Completed: Control Structures</td>
+                                    <td>Jul 14, 2023</td>
+                                    <td><span class="status-badge completed">Completed</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Digital Marketing</td>
+                                    <td>Started: Content Marketing</td>
+                                    <td>Jul 13, 2023</td>
+                                    <td><span class="status-badge active">In Progress</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Financial Accounting</td>
+                                    <td>Earned Certificate</td>
+                                    <td>Jul 10, 2023</td>
+                                    <td><span class="status-badge completed">Achievement</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Python Programming</td>
+                                    <td>Submitted Quiz: Variables</td>
+                                    <td>Jul 8, 2023</td>
+                                    <td><span class="status-badge completed">Score: 92%</span></td>
+                                </tr>
+                                <tr>
+                                    <td>UI/UX Design</td>
+                                    <td>Left Review</td>
+                                    <td>Jul 5, 2023</td>
+                                    <td><span class="status-badge completed">5 Stars</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Messages -->
+                <div class="data-section">
+                    <div class="section-header">
+                        <h3 class="section-title">Messages</h3>
+                    </div>
+                    <div class="chat-container">
+                        <div class="chat-sidebar">
+                            <div class="chat-search">
+                                <i class="fas fa-search"></i>
+                                <input type="text" placeholder="Search messages...">
+                            </div>
+                            <div class="chat-list">
+                                <div class="chat-item">
+                                    <div class="chat-avatar">YK</div>
+                                    <div class="chat-info">
+                                        <div class="chat-name">Dr. Yassin Khalid</div>
+                                        <div class="chat-preview">Your question about list comprehensions was great...</div>
+                                    </div>
+                                    <div class="chat-time">2h ago</div>
+                                </div>
+                                <div class="chat-item active">
+                                    <div class="chat-avatar">MD</div>
+                                    <div class="chat-info">
+                                        <div class="chat-name">Dr. Mohammed Abu El-Dahab</div>
+                                        <div class="chat-preview">I've reviewed your digital marketing assignment...</div>
+                                    </div>
+                                    <div class="chat-time">1d ago</div>
+                                </div>
+                                <div class="chat-item">
+                                    <div class="chat-avatar">MM</div>
+                                    <div class="chat-info">
+                                        <div class="chat-name">Dr. Mohamed Mayez</div>
+                                        <div class="chat-preview">Congratulations on completing the course!</div>
+                                    </div>
+                                    <div class="chat-time">3d ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat-main">
+                            <div class="chat-header">
+                                <div class="chat-avatar">MD</div>
+                                <div class="chat-header-info">
+                                    <div class="chat-header-name">Dr. Mohammed Abu El-Dahab</div>
+                                    <div class="chat-header-status">Active 1h ago</div>
+                                </div>
+                            </div>
+                            <div class="chat-messages">
+                                <div class="message received">
+                                    <div class="message-content">
+                                        Hi there, I've reviewed your digital marketing assignment and I'm impressed with your work on the social media strategy section.
+                                    </div>
+                                    <div class="message-time">Jul 15, 10:15 AM</div>
+                                </div>
+                                <div class="message received">
+                                    <div class="message-content">
+                                        You scored 48/50 points. The only suggestion I have is to include more specific metrics for measuring success in your campaign.
+                                    </div>
+                                    <div class="message-time">Jul 15, 10:16 AM</div>
+                                </div>
+                                <div class="message sent">
+                                    <div class="message-content">
+                                        Thank you for the feedback! Could you suggest some specific metrics I should consider for a fashion brand campaign?
+                                    </div>
+                                    <div class="message-time">Jul 15, 10:30 AM</div>
+                                </div>
+                                <div class="message received">
+                                    <div class="message-content">
+                                        For fashion brands, I'd recommend tracking engagement rate, conversion rate from Instagram stories, and the ROI of influencer collaborations. Also monitor hashtag performance and website traffic from social.
+                                    </div>
+                                    <div class="message-time">Jul 15, 10:45 AM</div>
+                                </div>
+                            </div>
+                            <div class="chat-input">
+                                <input type="text" placeholder="Type your message...">
+                                <button>Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
